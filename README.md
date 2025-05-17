@@ -24,7 +24,7 @@ I made a little pendant from one of those aliexpress 0.42' OLED ESP32-C3 boards,
 
 
 ## Note:
-  You can find this image online, and similar ones with the same pinout. none of them list 5 and 6 as SCL and SDA, and instead label pins 8 and 9. 8 and 9 can work as an i2c address, but causes issues when trying to use the display at the same time. The solution is to use pins 5 and 6, and make sure to properly handle the i2c devices taking turns in your code. ![esp32c3superminioledpinoout](https://github.com/user-attachments/assets/ee8b3423-a1df-4d5a-a656-fcc2e5074103)
+  You can find this image online, and similar ones with the same pinout. none of them list 5 and 6 as SCL and SDA, and instead label pins 8 and 9. 8 and 9 can work as an i2c address, but causes issues when trying to use the display at the same time. The solution is to use pins 5 and 6, and make sure to properly handle the i2c devices taking turns using the i2c bus in your code. ![esp32c3superminioledpinoout](https://github.com/user-attachments/assets/ee8b3423-a1df-4d5a-a656-fcc2e5074103)
 
 ### Here's a more accurate version to reference:
 I didn't bother with showing the SPI pins in this one, but it's fine for i2c device projects.
