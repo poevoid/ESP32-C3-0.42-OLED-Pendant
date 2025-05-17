@@ -1,6 +1,6 @@
 # ESP32-C3-0.42-OLED-Pendant
 I made a little pendant from one of those aliexpress 0.42' OLED ESP32-C3 boards, an SHTC3 and SGP40 sensor, and an INMP441 I2s mic.
-![OLEDPendantWHITEBG](https://github.com/user-attachments/assets/84c9b31d-37e6-41d4-9c17-0bd795ba1d75)
+![OLEDPendantWHITEBG](https://github.com/user-attachments/assets/9c91e150-adc6-4baa-be38-daf8d6107dad)
 
 
 ## Wiring:
