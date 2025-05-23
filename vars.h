@@ -50,8 +50,8 @@
 #define RESET_PIN 4
 #define SCREEN_ADDRESS 0x3C
 
-const char* ssid = "ATTQ6FviKI";
-const char* password = "hgchazeh76iy";
+const char* ssid = "Polaris";
+const char* password = "Gaystuffs";
 const char* ntpServer = "pool.ntp.org";
 
 const long gmtOffset_sec = -21600;
